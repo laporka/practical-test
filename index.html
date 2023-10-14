@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="reset.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+		<div class="header" id="Home">
+			<div class="container-1">
+
+				<div class="lsi">
+					<a href=""><img class="logo-light w3-animate-zoom-logo" src="img/Logo white.svg" alt=""></a>
+					<div class="search">
+						<input type="text" placeholder="Шукати..." class="input_search">
+					</div>
+					<div class="icons .w3-animate-zoom">
+						<button><a href="./account/wish-list.html"><img src="img/heart.svg" alt=""></a></button>
+						<button onclick="popupIn()"><img src="img/user.svg" alt=""></button>
+						<button onclick="popupCart()"><img src="img/shopping-cart.svg" alt=""></button>
+					</div>
+				</div>
+
+				<div class="menu">
+					<ul class="menu_ul">
+						<li class="menu_text"><a href="#Home">Home</a></li>
+						<li class="menu_text"><a href="#Sale">Sale</a></li>
+						<li class="menu_text"><a href="#Top-seller">Top Saller</a></li>
+						<li class="menu_text"><a href="#New">New</a></li>
+					</ul>
+				</div>
+
+			</div>
+		</div>
+
+
+		<!---header_slider--->
+		<div class="header_2">
+			<div class="container-2">
+
+				<div class="img_slider">
+
+					<div class="imgs">
+						<img class="mySlides1 w3-animate-left" src="img/slide-1.png" alt="">
+                        <img class="mySlides1 w3-animate-left" src="img/slide-2.png" alt="">
+                        <img class="mySlides1 w3-animate-left" src="img/slide-3.png" alt="">
+					</div>
+					
+					<!-- Зробити замість label і input radio (button з border radius і маленькі розміри щоб було похожі на кружочки) -->
+					<div class="nav-slider">
+						<button onclick="plusDivs(-1, 0)"><img src="img/arrow-left.svg" alt=""></button>
+						<label for="btn1" class="bar"></label>
+						<label for="btn2" class="bar"></label>
+						<label for="btn3" class="bar"></label>
+						<label for="btn4" class="bar"></label>
+						<label for="btn5" class="bar"></label>
+						<button onclick="plusDivs(1, 0)"><img src="img/arrow-right.svg" alt=""></button>
+					</div>
+					
+					<div class="slides">
+						<input type="radio" name="common" id="btn1" checked>
+						<input type="radio" name="common" id="btn2">
+						<input type="radio" name="common" id="btn3">
+						<input type="radio" name="common" id="btn4">
+						<input type="radio" name="common" id="btn5">
+					</div>
+
+				</div>
+
+
+				<div class="text_btn">
+
+						<div class="text w3-animate-zoom-text">
+							<p class="p1">Осіння Акція</p>
+							<p class="p2">Знижки до -30%</p>	
+						</div>
+
+					<button class="btn w3-animate-zoom-btn">Купити</button>
+				</div>
+
+			</div>
+		</div>
+		
+	</header>
+	<!---header_slider-END--->
+</body>
+</html>
