@@ -1,0 +1,92 @@
+PS C:\Users\www\git\practical-test> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+
+_______________________________________________
+
+
+PS C:\Users\www\git\practical-test> git branch
+* main
+  new-branch
+
+_______________________________________________
+
+
+PS C:\Users\www\git\practical-test> git log
+commit 29aef91cdab93eab5a31537d78884e7bf5c8c2dc (HEAD -> main, origin/main)
+Author: laporka <125121347+laporka@users.noreply.github.com>
+Date:   Sat Oct 14 10:13:58 2023 +0300
+
+    Create README.txt
+
+
+
+_______________________________________________
+
+
+
+
+commit a51f010fa076fbc8d95faaf8b888c1d1712096e8
+Merge: 1f04677 00e721a
+Author: laporka <kns198006@gmail.com>
+Date:   Sat Oct 14 10:12:26 2023 +0300
+
+    resolve merge conflict
+
+
+
+
+_______________________________________________
+
+
+
+commit 1f046776b8541bfbc27fbc800057488b20b1a4b0
+Author: laporka <kns198006@gmail.com>
+Date:   Sat Oct 14 10:08:42 2023 +0300
+
+    remove one class and logo
+
+
+
+    _______________________________________________
+
+commit 00e721ad1b75ac4750bd5432ef9ed8f4c4ce6860 (origin/new-branch, new-branch)
+Author: laporka <kns198006@gmail.com>
+Date:   Sat Oct 14 10:04:52 2023 +0300
+
+    removed js functions on buttons in lsi
+
+
+
+    _______________________________________________
+
+
+
+commit a90481a5bf487b595115d9b43cc534a9fd2daaa4
+Author: laporka <kns198006@gmail.com>
+
+    changed li code in menu
+
+
+
+
+_______________________________________________
+
+
+
+commit 1081655545e86ebd0c632b8fa52520172cfd3b49
+Author: laporka <kns198006@gmail.com>
+Date:   Sat Oct 14 10:01:26 2023 +0300
+
+______________________________________________________________________________________________
+
+
+commit a51f010fa076fbc8d95faaf8b888c1d1712096e8
+Merge: 1f04677 00e721a
+Author: laporka <kns198006@gmail.com>
+Date:   Sat Oct 14 10:12:26 2023 +0300
+
+    resolve merge conflict
